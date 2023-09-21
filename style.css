@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    }
+
+    
+
+header {
+    background-image: linear-gradient(to bottom,#6F5B80, #BE68FF, #DFB5FF );
+    background-attachment: fixed; 
+    font-family:arial; 
+    padding: 0.5px;
+    margin: 0px;
+    text-align: center;
+    width: 100%;
+    height: 150px;
+    color: #ffffff;
+    min-height: 150px;
+    padding-top: 40px;
+
+
+}
+
+section {
+    margin: 30px;
+}
+
+nav {
+    background-color:#6F5B80 ;
+    padding: 5px;
+    text-align: left;
+    height: 25px;
+    
+    
+   
+    
+    
+}
+
+nav > a {
+    text-decoration:none;
+    color: #ececec;
+    font-weight: arial;
+    margin-right: 30px;  /*espaço entre os nomes */
+    border-radius: 5px;
+    min-height: auto;
+   
+
+    transition-duration: .5s;
+
+   
+    
+    
+}
+
+a:hover {
+    background-color: palevioletred;
+    
+    
+}
+
+body {
+    background-color: #DFB5FF;
+    text-align:justify;
+    
+
+}
+
+p {
+    text-indent: 30px; /* Espaço antes do início do parágrago, uma margem */
+    line-height: 1.2em;
+}
+
+main {
+    min-height: 300px;
+    max-width: 800px;
+    margin: auto;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.459);
+
+}
+
+#pequena {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+main img {
+    width: 100%; /* permite que a imagem se adapte a tela*/
+}
+
+#corp {
+    background-color: #ffffff;
+    font-style: arial;
+    padding: 10px;
+    font-size: 17px;
+    
+}
+
+#inicial {
+    color:rgb(127, 53, 156);
+    font-family: 'Tilt Prism', cursive;
+    padding:10px;
+}
+
+#segundo, #titulo {
+    background-image:linear-gradient(to bottom, #C5ABD9, #E3E0EA);
+    font-family: 'Tilt Prism', cursive;
+    margin-top: 20px;
+    color:rgb(127, 53, 156);
+    padding: 3px;
+    border-radius: 10px;
+    
+    
+}
+
+#p1 {
+    margin-bottom: 20px;
+}
+
+#p2, #p4, #p5, #p6 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#viideo {
+    background-color: #a972e0; 
+    padding-right:30px;
+    
+    
+    
+    
+
+   
+}
+
+#video {
+    width: 740px;
+    height:440px;
+    padding: 10px;
+    
+    
+    
+}
+
+
+
+#tituloCaixinha {
+    text-align: left;
+    background-color: rgb(207, 119, 207);
+    border-radius: 5px;
+    height: 35px;
+    color: white;
+    font: 20px arial, bold;
+    margin: 10px 0px;
+    padding: 3px;
+    
+    
+}
+
+#caixinha {
+    
+    background-color: #E3E0EA;
+    margin: 20px 0px;
+    border-radius: 10px;
+     
+
+}
+
+#listas {
+    list-style-type: "\2714\00A0\00A0"; /* Serve para add emoji. O 2714 é o código do emoji e o 00A0 é o um espaçamento que o emoji dá do texto */ 
+    margin-top: 10px;
+    margin-bottom: 15px;
+    list-style-position: inside; /* permite centralizar a lista dentro da div */
+    text-indent: 30px;
+    columns: 2; /* Número de colunas da sua lista */
+}
+
+#penul, #ulti {
+   
+    padding-bottom: 30px;
+    
+}
+
+#b {
+    text-decoration: none;
+}
+
+#footer {
+    background-color: purple;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 100%;
+}
+
+#final {
+    margin-bottom: 20px;
+
+}
+
